@@ -1,0 +1,22 @@
+# Roblox APK (vi phạm ToS nếu push)
+roblox-apks/*.apk
+roblox-apks/*.apks
+roblox-apks/*.xapk
+
+# Build logs
+/tmp/*.log
+*.log
+
+# Backup files
+*.bak
+*.bak.*
+
+# Docker state
+*.tar
+*.tar.gz
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*~

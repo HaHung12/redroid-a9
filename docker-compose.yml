@@ -1,0 +1,18 @@
+services:
+  redroid-a9:
+    image: redroid-lite:9
+    container_name: redroid-a9
+    privileged: true
+    ports:
+      - "5557:5555"
+    environment:
+      - ro.product.model=Redroid A9 Lite
+      - androidboot.redroid_gpu_mode=host
+      - ro.hardware.gralloc=cros
+      - ro.hwui.use_vulkan=false
+    volumes:
+      - redroid-a9-data:/data
+    restart: "no"
+
+volumes:
+  redroid-a9-data:
