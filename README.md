@@ -25,8 +25,8 @@ Variance giữa 4 lần test: ±5%. Deterministic.
 
 ```bash
 # 1. Clone repo
-git clone https://github.com/HaHung12/redroid-a9-lite.git
-cd redroid-a9-lite
+git clone https://github.com/HaHung12/redroid-a9.git
+cd redroid-a9
 
 # 2. Build image (3-5 phút)
 cp scripts/strip.sh build/
